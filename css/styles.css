@@ -1,0 +1,102 @@
+body {
+  scroll-behavior: smooth;
+}
+.carousel-inner
+{
+	width: 100%;
+	height: 500px;
+}
+#container
+{
+	background-color: white;
+}
+#outer-container
+{
+	margin-top: -50px;
+}
+#reg-bg
+{
+	background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+#back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+	z-index: 999;
+}
+.show{
+	display: block;
+}
+.hide{
+	display: none;
+}
+
+
+footer {
+  background: #222;
+  color: #aaa;
+  padding-top: 10px;
+}
+
+footer a {
+  color: #aaa;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+footer h3 {
+ color: green;
+  letter-spacing: 1px;
+  margin: 30px 0 20px;
+}
+
+footer .three-column {
+ overflow: hidden;
+}
+
+footer .three-column li{
+ width: 33.3333%;
+  float: left;
+  padding: 5px 0;
+}
+
+footer .socila-list {
+  overflow: hidden;
+  margin: 20px 0 10px;
+}
+
+footer .socila-list li {
+  float: left;
+  margin-right: 3px;
+  opacity: 0.7;
+  overflow: hidden;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+footer .socila-list li:hover {
+  opacity: 1;
+}
+
+footer .img-thumbnail {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid #444;
+  margin-bottom: 5px;
+}
+
+footer .copyright {
+  padding: 15px 0;
+  background: #333;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+footer .copyright span {
+  color: green;
+}
