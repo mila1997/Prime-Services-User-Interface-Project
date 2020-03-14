@@ -1,5 +1,6 @@
 body {
   scroll-behavior: smooth;
+  transition: all .5s;
 }
 .carousel-inner
 {
@@ -27,6 +28,19 @@ body {
     bottom: 25px;
     right: 25px;
 	z-index: 999;
+}
+#transition-zoom
+{
+	transition: all .5s;
+}
+#parent-transition
+{	
+	position: relative;
+	overflow: hidden;
+}
+#transition-zoom:hover
+{
+	transform: scale(1.2);
 }
 .show{
 	display: block;

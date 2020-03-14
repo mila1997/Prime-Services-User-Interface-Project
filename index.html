@@ -17,7 +17,7 @@
 	</head>
 	<body id="reg-bg">
 		<nav class="navbar sticky-top navbar-expand-md navbar-light bg-light shadow p-3 mb-5 bg-white rounded">
-			<a href="index.html" class="navbar-brand"><img src="images/siteLogo.png" alt="login" height="50" width="150"></a>
+			<a href="index.html" class="navbar-brand"><img src="images/siteLogo.png" alt="login" height="60" width="100"></a>
 			
 			<!--Small Navbar view-->
 			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -89,9 +89,10 @@
 						 <a class="btn btn-success" href="#" style="margin-left:5%;text-align:justify">LEARN MORE</a>
 						<br>
 						<br>
-
+						<br><br> 
 					</div>
 			</div>
+			
 		</div>
           
                  <!-- <div class="row">
@@ -123,20 +124,28 @@
 				     		
 
              </div> -->
-		<br>
-
-		<div class="container-fluid">
+		
+		<div class="container-fluid" >
 			<div class="row">	  
-				<div class="col-sm-6"  style="background-color:transparent; padding:4%;background-image: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.9) 100%), url(images/carousel/image3.jpg);background-size: cover;" >
-					   
-					<a class="btn btn-lg border border-dark" href="#" style="display:flex;justify-content: center;color:black; opacity:1.0;font-weight: bold;">REPAIRS</a>
-					
+				<div id="parent-transition" class="col-sm-6 p-0"  style="height: 200px;">
+					<div id="transition-zoom"style="height: 100%;background-color:transparent;padding:4%;background-image:  linear-gradient(to bottom, rgba(0,100,0,0.6) 0%,rgba(255,255,255,0.9) 100%), url(images/carousel/image1.jpg);background-size: cover;">
+						<div id="overlay">
+							<a class="btn btn-lg" href="#" style="display:flex;justify-content: center;color:black; font-weight: bold; margin-top: 45px">REPAIRS</a>
+						</div>
+					</div>
 				</div>
-
-				<div class="col-sm-6" style="background-color:transparent;padding:4%;background-image:  linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.9) 100%), url(images/carousel/image1.jpg);background-size: cover;">
-					<a class="btn btn-lg border border-dark" href="#" style="display:flex;justify-content: center;color:black; font-weight: bold;">MAINTENANCE</a>
+				<div id="parent-transition" class="col-sm-6 p-0"  style="height: 200px;">
+					<div id="transition-zoom"style="height: 100%;background-color:transparent;padding:4%;background-image:  linear-gradient(to bottom, rgba(0,100,0,0.6) 0%,rgba(255,255,255,0.9) 100%), url(images/carousel/image2.jpg);background-size: cover;">
+						<div id="overlay">
+							<a class="btn btn-lg" href="#" style="display:flex;justify-content: center;color:black; font-weight: bold; margin-top: 45px">MAINTENANCE</a>
+						</div>
+					</div>
 				</div>
 			</div>
+		</div>
+		
+		<div class="container-fluid" style="background-color: white; height: 400px;">
+		
 		</div>
 		
 		<a id="back-to-top" href="#" class="btn btn-light btn-lg hide" role="button"><i class="fa fa-arrow-up"></i></a>
