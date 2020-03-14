@@ -79,12 +79,12 @@ body {
 }
 
 hr {
-    background-color: black;
-    border: 0.5px solid;
+    background-color: rgb(146, 154, 236);
+    border: 1px solid;
     border-radius: 20px;
     color: rgb(146, 154, 236);
     height: 5px;
-    width: 60px !important
+    width: 70px !important
 }
 
 .bold {
